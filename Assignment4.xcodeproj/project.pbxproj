@@ -11,6 +11,8 @@
 		2E0EEFFC2CE05FB300E8CDC9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0EEFFB2CE05FB300E8CDC9 /* ContentView.swift */; };
 		2E0EEFFE2CE05FB800E8CDC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E0EEFFD2CE05FB800E8CDC9 /* Assets.xcassets */; };
 		2E0EF0012CE05FB800E8CDC9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E0EF0002CE05FB800E8CDC9 /* Preview Assets.xcassets */; };
+		2E0EF0082CE0616100E8CDC9 /* presidents.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2E0EF0072CE0616100E8CDC9 /* presidents.plist */; };
+		2E0EF00E2CE06BA500E8CDC9 /* PresidentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0EF00D2CE06BA500E8CDC9 /* PresidentDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		2E0EEFFB2CE05FB300E8CDC9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2E0EEFFD2CE05FB800E8CDC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E0EF0002CE05FB800E8CDC9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2E0EF0072CE0616100E8CDC9 /* presidents.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = presidents.plist; sourceTree = "<group>"; };
+		2E0EF00D2CE06BA500E8CDC9 /* PresidentDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresidentDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +55,9 @@
 		2E0EEFF82CE05FB300E8CDC9 /* Assignment4 */ = {
 			isa = PBXGroup;
 			children = (
+				2E0EF0072CE0616100E8CDC9 /* presidents.plist */,
 				2E0EEFF92CE05FB300E8CDC9 /* Assignment4App.swift */,
+				2E0EF00D2CE06BA500E8CDC9 /* PresidentDetailView.swift */,
 				2E0EEFFB2CE05FB300E8CDC9 /* ContentView.swift */,
 				2E0EEFFD2CE05FB800E8CDC9 /* Assets.xcassets */,
 				2E0EEFFF2CE05FB800E8CDC9 /* Preview Content */,
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E0EF0012CE05FB800E8CDC9 /* Preview Assets.xcassets in Resources */,
+				2E0EF0082CE0616100E8CDC9 /* presidents.plist in Resources */,
 				2E0EEFFE2CE05FB800E8CDC9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E0EF00E2CE06BA500E8CDC9 /* PresidentDetailView.swift in Sources */,
 				2E0EEFFC2CE05FB300E8CDC9 /* ContentView.swift in Sources */,
 				2E0EEFFA2CE05FB300E8CDC9 /* Assignment4App.swift in Sources */,
 			);
